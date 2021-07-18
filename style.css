@@ -1,0 +1,221 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	line-height: 1.5;
+}
+
+body {
+	background-color: #ccc;
+}
+
+/*
+################
+               start header
+################
+*/
+header {
+	width: 100%;
+    height: 100%;
+    background-image: url("./HinhAnh/logo.png");
+}
+
+.logo-text {
+    width: 825px;
+    height: 168px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.logo-text p{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #a52f08;
+}
+
+.logo-text span {
+	color: #ffffff;
+}
+
+.logo-text .LHP {
+	font-size: 18px;
+	display: block;
+}
+
+/*
+################
+               start navbar
+################
+*/
+nav {
+    max-width: 877px;
+	background:#ff751a;
+    /* height: 72px; */
+    margin: 0 auto;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	display: -webkit-flex;
+	display:-moz-flex;
+	display:-ms-flex;
+	display:-o-flex;
+	display: flex;
+}
+
+nav a {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	transition: .6s;
+	color: #fff;
+	background: #ff751a;
+	letter-spacing: 2px;
+	text-decoration: none;
+	padding: 20px;
+}
+
+nav a:hover {
+	background: #c4550c;
+}
+
+@media all and (max-width: 1000px) {
+	nav ul {
+		flex-wrap: wrap;
+	}
+	nav li {
+		flex: 1 1 50%;
+	}
+}
+
+@media all and (max-width: 500px) {
+	nav li {
+		flex-basis: 100%;
+	}
+}
+
+/*
+################
+               start main
+################
+*/
+
+.main {
+	display: flex;
+	max-width: 877px; /* 834px */
+	padding: 0 15px;
+	background: #ffffff;
+	margin: 0 auto;
+}
+
+.content {
+	flex: 595px;
+	padding: 20px 20px;
+	flex-shrink: 1;
+	text-align: justify;
+}
+
+.sidebar {
+	flex: 190px;
+	padding: 20px 20px;
+	flex-shrink: 1;
+	text-align: justify;
+}
+
+.list-content {
+	padding: 20px 20px;
+	list-style-image: url("./HinhAnh/bullet.png");
+}
+.list-content li {
+	margin: 0 0 5px 0;
+}
+
+h2 {
+	font-weight: normal;
+	margin: 20px 0px;
+}
+
+.img-banner {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+
+.heading-style {
+	color: rgb(13, 13, 172);
+}
+
+article {
+	padding: 0 0 20px;
+}
+
+.post-title {
+	font-weight: bold;
+	color: #3399ff;
+}
+
+.post-datetime {
+	text-transform: uppercase;
+	letter-spacing: -0.5px;
+	font-weight: bold;
+	font-style: italic;
+	padding-bottom: 20px;
+}
+
+.sidebar a {
+	color: #ff9933;
+}
+
+.sidebar a:hover {
+	text-decoration: none;
+	font-style: italic;
+}
+
+.list-sidebar ul {
+	tab-size: 14px;
+	margin: 15px 25px;
+	list-style-image: url("./HinhAnh/link.png");
+}
+
+#form_search {
+    display: flex;
+	margin-top: 20px;
+}
+
+#form_search img {
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+/*
+################
+               start footer
+################
+*/
+footer {
+	width: 878px;
+	margin: 0 auto;
+	background-color: #ff6600;
+	text-align: center;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
